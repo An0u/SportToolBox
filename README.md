@@ -52,20 +52,43 @@ Give examples
 ### Installing
 A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
+Initialize a project
+Let's create a new directory where our folder will go.
 
 ```
-Give the example
+❯ mkdir basic-demo
+❯ cd basic-demo
 ```
 
-And repeat
+Now we can use Gradle’s init command to generate a simple project. We will explore everything that is generated so you know exactly what’s going on.
 
 ```
-until finished
+❯ gradle init 
+//Starting a Gradle Daemon (subsequent builds will be faster)
+```
+The command should show "BUILD SUCCESSFUL" and generate the following "empty" project. If it doesn’t, please ensure that Gradle is installed properly, and that you have the JAVA_HOME environment variable set correctly.
+
+
+This is what Gradle generated for you.
+
+```
+├── build.gradle  
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar  
+│       └── gradle-wrapper.properties  
+├── gradlew  
+├── gradlew.bat  
+└── settings.gradle 
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
-
+ 1 Gradle build script for configuring the current project
+ 2 Gradle Wrapper executable JAR
+ 3 Gradle Wrapper configuration properties
+ 4 Gradle Wrapper script for Unix-based systems
+ 5 Gradle Wrapper script for Windows
+ 6 Gradle settings script for configuring the Gradle build
+  
 ## 🔧 Running the tests <a name = "tests"></a>
 Explain how to run the automated tests for this system.
 
