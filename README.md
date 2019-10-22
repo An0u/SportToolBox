@@ -1,14 +1,12 @@
 # SportToolBox
 [![Maintainability](https://api.codeclimate.com/v1/badges/280e62d048bcb77bf228/maintainability)](https://codeclimate.com/github/Segelzwerg/SportToolBox/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/280e62d048bcb77bf228/test_coverage)](https://codeclimate.com/github/Segelzwerg/SportToolBox/test_coverage) https://sporttoolbox.herokuapp.com/
-## About
-This is a website where you calculate different metrics used in sport. It is meant to collect calculators into one website for the convience of the athletes.
 
 <p align="center">
   <a href="" rel="noopener">
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">Sport Toolbox/h3>
 
 <div align="center">
 
@@ -21,7 +19,7 @@ This is a website where you calculate different metrics used in sport. It is mea
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center">This is a website where you calculate different metrics used in sport. It is meant to collect calculators into one website for the convience of the athletes.
     <br> 
 </p>
 
